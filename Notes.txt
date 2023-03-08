@@ -1,0 +1,10 @@
+Socket.io :
+1.) used whenever you are interacting with Live/Real data 
+2.) You are given a 2 way binding in this clinet -> <- server (in real time)
+3.) Has 2 functionalities (to send data , to receive data)
+send - emit() function
+receive - on() function
+         emit()        on()
+you ---------------> friend
+you <--------------  friend
+on()     emit()
